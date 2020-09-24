@@ -1,0 +1,20 @@
+{
+  "migration_graphs": {
+    "@module": "maggma.stores.advanced_stores",
+    "@class": "MongograntStore",
+    "@version": "0.23.3",
+    "mongogrant_spec": "ro:mongodb03/js_cathodes",
+    "collection_name": "snls_icsd_migration",
+    "mgclient_config_path": null,
+    "key": "snl_id"
+  },
+  "migration_graphs_descriptor": {
+    "@module": "maggma.stores.advanced_stores",
+    "@class": "MongograntStore",
+    "@version": "0.23.3",
+    "mongogrant_spec": "ro:mongodb03/js_cathodes",
+    "collection_name": "snls_icsd_desc",
+    "mgclient_config_path": null,
+    "key": "snl_id"
+  }
+}

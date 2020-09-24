@@ -1,0 +1,13 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v2.3.0
+    hooks:
+      - id: check-yaml
+      - id: end-of-file-fixer
+      - id: trailing-whitespace
+      - id: flake8
+        args: ['--max-line-length=120']
+  - repo: https://github.com/pre-commit/mirrors-autopep8
+    rev: "548abcf" # Use the sha / tag you want to point at
+    hooks:
+      - id: autopep8
