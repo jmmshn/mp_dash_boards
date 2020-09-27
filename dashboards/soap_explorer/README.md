@@ -1,6 +1,6 @@
 # Analyze SOAP data
 
-List of desired features of the dassboard:
+List of desired features of the dashboard:
 
 - Search for materials
 
