@@ -1,18 +1,10 @@
 {
-  "soap_descriptors": {
+  "soap_site_descriptors": {
     "@module": "maggma.stores.advanced_stores",
     "@class": "MongograntStore",
     "@version": "0.23.3",
     "mongogrant_spec": "ro:mongodb03/js_cathodes",
-    "collection_name": "soap_snls_icsd",
-    "key": "snl_id"
-  },
-  "snls_icsd": {
-    "@module": "maggma.stores.advanced_stores",
-    "@class": "MongograntStore",
-    "@version": "0.23.3",
-    "mongogrant_spec": "ro:knowhere/mp_core",
-    "collection_name": "snls_icsd",
+    "collection_name": "soap_all_mp_sites",
     "key": "snl_id"
   }
 }
